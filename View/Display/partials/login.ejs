@@ -1,0 +1,21 @@
+<form id="loginForm" class="form-floating ps-1 fade-in" action="/login" method="post">
+  <% if (typeof loginComment !== 'undefined') { %>
+  <div class="signupInvalid" style="display: block; font-size: small; font-weight: 500; text-align: center; margin-bottom: 3px;"><%= loginComment %></div>
+  <% } %>
+  <div class="form-floating mb-3">
+    <input type="email" class="form-control" id="floatingInput" name="loginEmail" placeholder="Email" required>
+    <label for="floatingInput">Email Address</label>
+  </div>
+  <div class="form-floating">
+    <input type="password" class="form-control" id="floatingPassword" name="loginPassword" placeholder="Password">
+    <label for="floatingPassword">Password</label>
+  </div>
+  <div class="position-relative">
+    <div class="position-absolute top-0 end-0">
+      <a href="">Forgot Password?</a>
+    </div>
+  </div>
+  <div class="d-grid my-5 ">
+    <button class="btn btn-primary py-2" type="submit">LOGIN</button>
+  </div>    
+</form>

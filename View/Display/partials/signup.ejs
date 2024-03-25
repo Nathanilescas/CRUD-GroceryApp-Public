@@ -1,0 +1,35 @@
+<form id="signupForm" class="fade-in ps-1" style="display: none;" action="/signup" method="post">
+    <div class="container text-center">
+      <div class="row align-items-center my-2">
+        <div class="col pe-1" >
+          <input id="signupFirst" class="form-control form-control-sm py-2" type="text" name="firstName" placeholder="First Name*" aria-label="First Name" required>
+          <div class="signupInvalid">Exceeded input limit</div>
+        </div>
+        <div class="col ps-1" >
+          <input id="signupLast" class="form-control form-control-sm py-2" type="text" name="lastName" placeholder="Last Name*" aria-label="Last Name" required>
+          <div class="signupInvalid">*Exceeded input limit</div>
+        </div>
+      </div>
+      <div class="row align-items-center my-2">
+        <div class="col" >
+          <input id="signupEmail" class="form-control form-control-sm py-2" type="text" name="signupEmail" placeholder="Email*" aria-label="Email" required>
+          <div class="signupInvalid">Exceeded input limit</div>
+        </div>
+      </div>
+      <div class="row align-items-center my-2">
+        <div class="col" >
+          <input id="signupPassword" class="form-control form-control-sm py-2" type="password" name="signupPassword" placeholder="Password*" aria-label="Password" required>
+          <div class="signupInvalid">Exceeded input limit</div>
+        </div>
+      </div>        
+      <div class="row align-items-center my-2">
+        <div class="col" >
+          <input id="signupConfirm" class="form-control form-control-sm py-2" type="password" placeholder="Confirm Password*" aria-label="Confirm Password" required>
+          <div class="signupInvalid">Passwords don't match</div>
+        </div>
+      </div>
+      <div class="d-grid my-3 ">
+        <button class="btn btn-primary py-2" type="submit">GET STARTED</button>
+      </div> 
+    </div>
+  </form>

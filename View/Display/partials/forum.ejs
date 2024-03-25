@@ -1,0 +1,20 @@
+<div id="loginTitle" class="title fade-in">Welcome Back!</div>
+    <div id="signupTitle" class="title fade-in" style="display: none;">Sign Up for Free</div>
+
+    <!--Login/SignUp Button--> 
+    <div class="container text-center p-0">
+      <div class="row my-4">
+        <div id="loginButton" class="col py-2 m-0 ms-3 border-0 btn btn-secondary menu-button shadow active">
+          Login
+        </div>
+        <div id="signupButton" class="col py-2 m-0 me-3 border-0 btn btn-secondary menu-button shadow">
+          Sign Up
+        </div>
+      </div>
+    </div>
+
+    <!--Login Form-->
+    <%- include('login.ejs') %>
+
+    <!--Sign Up Form-->
+    <%- include('signup.ejs') %>

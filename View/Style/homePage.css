@@ -1,0 +1,64 @@
+@media screen and (max-width: 360px) and (max-height: 800px) {
+  body {
+    background-color: rgb(198, 223, 231);
+  }
+
+  .login-container {
+    margin-top: 22vh;
+    border-radius: 2%;
+    background-color: white;
+    width: 80vw;
+    height: 110%;
+    overflow: hidden;
+  }
+
+  .title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: xx-large;
+    font-weight: 900;
+    margin: 10px 0px;
+    text-align: center;
+  }
+
+  .menu-button {
+    color: white;
+    font-size: large;
+    text-decoration: none;
+  }
+  .btn {
+    border-radius: 0%;
+    font-size: Times New Roman, Times, serif;
+    font-weight: 400;
+  }
+
+  .btn-secondary.active,
+  .btn-secondary:active {
+    background-color: #1ab188;
+  }
+
+  .btn-secondary:hover {
+    background-color: #179b77;
+  }
+
+  /*INVALID*/
+  .signupInvalid {
+    color: red;
+    font-size: x-small;
+    display: none;
+  }
+
+  /*ANIMATIONS*/
+
+  .fade-in {
+    animation: fadeIn;
+    animation-duration: 1.3s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+}
